@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-26T11:09:38 IST" name="Default suite" finished-at="2025-11-26T11:10:15 IST" duration-ms="36744">
+    <groups>
+    </groups>
+    <test started-at="2025-11-26T11:09:38 IST" name="Default test" finished-at="2025-11-26T11:10:15 IST" duration-ms="36744">
+      <class name="com.StoreApp.testCases.SignUpTestCases">
+        <test-method is-config="true" signature="luanchBrowser()[pri:0, instance:com.StoreApp.testCases.SignUpTestCases@4b2bac3f]" started-at="2025-11-26T11:09:38 IST" name="luanchBrowser" finished-at="2025-11-26T11:09:48 IST" duration-ms="9860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchBrowser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:com.StoreApp.testCases.SignUpTestCases@4b2bac3f]" started-at="2025-11-26T11:09:49 IST" name="createUser" data-provider="userData" finished-at="2025-11-26T11:10:00 IST" duration-ms="10620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pooja12256]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@12296]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:com.StoreApp.testCases.SignUpTestCases@4b2bac3f]" started-at="2025-11-26T11:10:00 IST" name="createUser" data-provider="userData" finished-at="2025-11-26T11:10:04 IST" duration-ms="4281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ananya232323]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass@232323]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser(java.lang.String,java.lang.String)[pri:0, instance:com.StoreApp.testCases.SignUpTestCases@4b2bac3f]" started-at="2025-11-26T11:10:04 IST" name="createUser" data-provider="userData" finished-at="2025-11-26T11:10:09 IST" duration-ms="4706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="loginUser()[pri:0, instance:com.StoreApp.testCases.SignUpTestCases@4b2bac3f]" started-at="2025-11-26T11:10:09 IST" name="loginUser" finished-at="2025-11-26T11:10:11 IST" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.StoreApp.testCases.SignUpTestCases@4b2bac3f]" started-at="2025-11-26T11:10:11 IST" name="closeBrowser" finished-at="2025-11-26T11:10:15 IST" duration-ms="4416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.StoreApp.testCases.SignUpTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
