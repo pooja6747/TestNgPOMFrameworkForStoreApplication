@@ -27,9 +27,9 @@ public class AddToCartProductTestCases {
 
 	@Test
 	public void addProductToCart() {
-		System.out.println("Enter in AddToCart function");
+		System.out.println("Enter in addProductToCart function");
 		AddToCart addToCart = new AddToCart(driver);
-		addToCart.productAddToCart();
+		addToCart.clickProductByName("Nokia lumia 1520");
 		System.out.println("addProductToCart done");
 	}
 

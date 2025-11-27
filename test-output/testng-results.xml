@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-27T10:29:58 IST" name="Default suite" finished-at="2025-11-27T10:31:15 IST" duration-ms="77216">
+  <suite started-at="2025-11-27T10:57:09 IST" name="Default suite" finished-at="2025-11-27T10:58:02 IST" duration-ms="52441">
     <groups>
     </groups>
-    <test started-at="2025-11-27T10:29:58 IST" name="Default test" finished-at="2025-11-27T10:31:15 IST" duration-ms="77216">
+    <test started-at="2025-11-27T10:57:09 IST" name="Default test" finished-at="2025-11-27T10:58:02 IST" duration-ms="52441">
       <class name="com.StoreApp.testCases.AddToCartProductTestCases">
-        <test-method is-config="true" signature="luanchBrowser()[pri:0, instance:com.StoreApp.testCases.AddToCartProductTestCases@3eb738bb]" started-at="2025-11-27T10:29:58 IST" name="luanchBrowser" finished-at="2025-11-27T10:30:30 IST" duration-ms="32477" status="PASS">
+        <test-method is-config="true" signature="luanchBrowser()[pri:0, instance:com.StoreApp.testCases.AddToCartProductTestCases@3eb738bb]" started-at="2025-11-27T10:57:09 IST" name="luanchBrowser" finished-at="2025-11-27T10:57:24 IST" duration-ms="14747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchBrowser -->
-        <test-method signature="addProductToCart()[pri:0, instance:com.StoreApp.testCases.AddToCartProductTestCases@3eb738bb]" started-at="2025-11-27T10:30:31 IST" name="addProductToCart" finished-at="2025-11-27T10:30:36 IST" duration-ms="5074" status="PASS">
+        <test-method signature="addProductToCart()[pri:0, instance:com.StoreApp.testCases.AddToCartProductTestCases@3eb738bb]" started-at="2025-11-27T10:57:25 IST" name="addProductToCart" finished-at="2025-11-27T10:57:28 IST" duration-ms="3567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCart -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.StoreApp.testCases.AddToCartProductTestCases@3eb738bb]" started-at="2025-11-27T10:30:36 IST" name="closeBrowser" finished-at="2025-11-27T10:31:15 IST" duration-ms="39047" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.StoreApp.testCases.AddToCartProductTestCases@3eb738bb]" started-at="2025-11-27T10:57:28 IST" name="closeBrowser" finished-at="2025-11-27T10:58:02 IST" duration-ms="33310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

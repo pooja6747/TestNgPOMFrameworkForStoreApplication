@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.StoreApp.testCases.SignUpTestCases">
+      <class name="com.StoreApp.testCases.AddToCartProductTestCases">
         <methods>
-          <include name="luanchBrowser"/>
-          <include name="createUser" invocation-numbers="0 1 2"/>
           <include name="closeBrowser"/>
+          <include name="addProductToCart"/>
+          <include name="luanchBrowser"/>
         </methods>
-      </class> <!-- com.StoreApp.testCases.SignUpTestCases -->
+      </class> <!-- com.StoreApp.testCases.AddToCartProductTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

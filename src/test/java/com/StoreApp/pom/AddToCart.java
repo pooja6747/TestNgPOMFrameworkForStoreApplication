@@ -11,9 +11,11 @@ public class AddToCart {
 	
 	WebDriver driver;
 	WebDriverWait wait;
+	String productName;
 
 	// Locators
-	By clickOnProduct = By.xpath("//body/div[@id='contcont']/div[@class='row']/div[@class='col-lg-9']/div[@id='tbodyid']/div[1]");
+	By clickOnProduct = By.xpath("//a[contains(text(), '" + productName + "')]");
+
 
 
 	// Constructor
@@ -23,7 +25,8 @@ public class AddToCart {
 	}
 
 	//Action methods
-	public void productAddToCart() {
-		driver.findElement(clickOnProduct).click();
+	public void clickProductByName(String productName) {
+	    By product = By.xpath("//a[contains(text(), '" + productName + "')]");
+	    driver.findElement(product).click();
 	}
 }
