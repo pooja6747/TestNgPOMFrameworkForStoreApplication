@@ -4,13 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.StoreApp.pom.AddToCart;
-import com.StoreApp.pom.SignUp;
+import com.StoreApp.pom.CartPage;
 
-public class AddToCartProductTestCases {
+public class CartPageTestCases {
 	WebDriver driver;
 
 
@@ -24,13 +23,12 @@ public class AddToCartProductTestCases {
 		System.out.println("Website open");
 	}
 
-
 	@Test
-	public void addProductToCart() {
-		System.out.println("Enter in addProductToCart function");
-		AddToCart addToCart = new AddToCart(driver);
-		addToCart.clickProductByName("Nokia lumia 1520");
-		System.out.println("addProductToCart done");
+	public void CartPagefunction() {
+		System.out.println("Enter in CartPagefunction");
+		CartPage cartpage = new CartPage(driver);
+		cartpage.placeOrderButton();
+		
 	
 	}
 
@@ -38,4 +36,6 @@ public class AddToCartProductTestCases {
 	public void closeBrowser() {
 		driver.close();
 	}
+	
+
 }
